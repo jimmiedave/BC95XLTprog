@@ -39,7 +39,7 @@ Formatting the CSV file is on you, the user, and the program will attempt to pro
 Remember: If you try stupid things, expect stupid things to happen.
 
 ## The provided goods
-There are Mac, Windows and Linux executables provided, in ARM64 and AMD 64 builds. If these don't work for you, you can install Python 3.12 (and above) and pyserial and run the BC95XLTprog.py python file directly.
+There are Mac, Windows and Linux executables provided, in ARM64 and AMD 64 builds. **If these don't work for you, you can install Python 3.12 (and above) and pyserial and run the BC95XLTprog.py python file directly.**
 
 These executables are not signed, and on macOS you'll need to control-click (or right-click) and open the program from the context menu the first time, as macOS will complain about it.
 
