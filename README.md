@@ -19,6 +19,11 @@ Your best choice for managing channels is probably a spreadsheet program, like E
 
 In general, spreadsheets offer a lot more flexibility in handling tabular data than any scanner channel management program I've tried. Masochists can queue for Notepad or vi.
 
+### A note on Linux
+Linux will require that the user be a member of the "dialout" group to use the serial port without administrative privileges. To accomplish this, you'll need admin privileges (assuming you're using `sudo` here), and you'll add your user to the group this way (don't type the curly braces!):
+
+`sudo adduser {yourusername} dialout`
+
 ## Making your CSV file
 Your CSV file will need to have 5 columns minimum:
 
