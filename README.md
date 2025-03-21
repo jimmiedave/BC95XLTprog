@@ -19,6 +19,9 @@ Your best choice for managing channels is probably a spreadsheet program, like E
 
 In general, spreadsheets offer a lot more flexibility in handling tabular data than any scanner channel management program I've tried. Masochists can queue for Notepad or vi.
 
+### A note on macOS
+These executables are not signed, and on macOS you'll need to control-click (or right-click) and open the program from the context menu the first time, as macOS will complain about it. You won't have to do this after you've opened it this way one time.
+
 ### A note on Linux
 Linux will require that the user be a member of the "dialout" group to use the serial port without administrative privileges. To accomplish this, you'll need admin privileges (assuming you're using `sudo` here), and you'll add your user to the group this way (don't type the curly braces!):
 
@@ -45,8 +48,6 @@ Remember: If you try stupid things, expect stupid things to happen.
 
 ## The provided goods
 There are Mac, Windows and Linux executables provided, in ARM64 and AMD 64 builds. **If these don't work for you, you can install Python 3.12 (and above) and pyserial and run the BC95XLTprog.py python file directly.**
-
-These executables are not signed, and on macOS you'll need to control-click (or right-click) and open the program from the context menu the first time, as macOS will complain about it.
 
 Example CSV files are provided:
 
